@@ -1,0 +1,94 @@
+{
+  "semilla": 20132023,
+  "replicas_bootstrap": 300,
+  "variantes": {
+    "A": [],
+    "B": [
+      "INIA_"
+    ],
+    "C": [
+      "PE_"
+    ],
+    "D": [
+      "INIA_",
+      "PE_"
+    ],
+    "E": [
+      "LLH_"
+    ],
+    "F": [
+      "INIA_",
+      "LLH_"
+    ],
+    "G": [
+      "PE_",
+      "LLH_"
+    ],
+    "H": [
+      "INIA_",
+      "PE_",
+      "LLH_"
+    ]
+  },
+  "contrastes_principales": [
+    "G-C",
+    "G-E",
+    "H-D",
+    "H-F"
+  ],
+  "contrastes_secundarios": [
+    "B-A",
+    "C-A",
+    "D-B",
+    "E-A",
+    "F-B",
+    "G-A",
+    "H-B"
+  ],
+  "sensores": {
+    "pisco_elqui": {
+      "59": [
+        "temperatura",
+        1.5
+      ],
+      "60": [
+        "humedad",
+        1.5
+      ],
+      "56": [
+        "viento",
+        2.0
+      ],
+      "57": [
+        "direccion",
+        2.0
+      ],
+      "PEPA": [
+        "presion",
+        2.0
+      ]
+    },
+    "llanos_de_huanta": {
+      "LLHTA": [
+        "temperatura",
+        2.0
+      ],
+      "LLHHR": [
+        "humedad",
+        2.0
+      ],
+      "LLHVV2M": [
+        "viento",
+        2.0
+      ],
+      "LLHDV2M": [
+        "direccion",
+        2.0
+      ],
+      "LLHPA": [
+        "presion",
+        2.0
+      ]
+    }
+  }
+}

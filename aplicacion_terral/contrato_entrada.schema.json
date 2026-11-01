@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Terral G1 entrada 1.0",
+  "type": "object",
+  "required": ["registros", "emision", "modo"],
+  "additionalProperties": false,
+  "properties": {
+    "modo": {"enum": ["actual", "historico"]},
+    "emision": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}[ T]\\d{2}:00:00$"},
+    "adquisicion_utc": {"type": ["string", "null"], "format": "date-time"},
+    "ahora_utc": {"type": ["string", "null"], "format": "date-time"},
+    "fallo_adquisicion": {"type": ["string", "null"]},
+    "registros": {"type": "array", "items": {
+      "type": "object",
+      "required": ["estacion", "sensor", "variable", "unidad", "altura_m", "marca_original", "min", "prom", "max", "porcentaje_datos"],
+      "properties": {
+        "estacion": {"enum": ["6", "8"]},
+        "sensor": {"enum": ["39", "40", "36", "37", "VCNPA", "59", "60", "56", "57", "PEPA"]},
+        "variable": {"type": "string"}, "unidad": {"type": "string"}, "altura_m": {"type": "number"},
+        "marca_original": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}[ T]\\d{2}:00:00$"},
+        "min": {"type": ["number", "string", "null"]}, "prom": {"type": ["number", "string", "null"]},
+        "max": {"type": ["number", "string", "null"]}, "porcentaje_datos": {"type": ["number", "string", "null"]},
+        "adquisicion_utc": {"type": "string", "format": "date-time"}, "procedencia": {"type": "object"},
+        "mascara_historica": {"type": "string"}
+      }
+    }}
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "e_cod": "LAGEL",
+  "slug": "la_laguna_elqui",
+  "name": "La Laguna [Elqui]",
+  "identity_verified": true,
+  "xls_names": [
+    "La Laguna [Elqui]",
+    "La Laguna",
+    "La Laguna Elqui"
+  ],
+  "latitude_wgs84": -30.203112,
+  "longitude_wgs84": -70.037224,
+  "altitude_m_asl": 3209,
+  "metadata_start": "2013-06-05",
+  "metadata_end": "2026-10-08",
+  "metadata_first_timestamp": "2013-06-05 21:00:00",
+  "metadata_last_timestamp": "2026-10-08 19:00:00",
+  "metadata_range_is_not_sensor_coverage": true,
+  "datalogger": "Sutron",
+  "energy": "Panel solar",
+  "development_status": "pendiente_adquisicion",
+  "timestamps_timezone": null,
+  "interval_position": null,
+  "pressure_reference": "no_confirmada",
+  "sensors": [
+    {
+      "code": "LAGELTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 1.5,
+      "brand_model": "Vaisala/HMP155",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "temperatura"
+    },
+    {
+      "code": "LAGELHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 1.5,
+      "brand_model": "Vaisala/HMP155",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "humedad"
+    },
+    {
+      "code": "LAGELVV10",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "viento"
+    },
+    {
+      "code": "LAGELDV10",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "direccion"
+    },
+    {
+      "code": "LAGELPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "presion"
+    }
+  ],
+  "available_sensor_metadata": [
+    {
+      "code": "LAGELTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 1.5,
+      "brand_model": "Vaisala/HMP155",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 1.5,
+      "brand_model": "Vaisala/HMP155",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELVV10",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELDV10",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELRS",
+      "label": "Radiación Solar",
+      "unit": "W/m²",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELPP",
+      "label": "Precipitación Acumulada",
+      "unit": "mm",
+      "height_m": 0.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELTS2",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELTS1",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.1,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELset0",
+      "label": "Evapotranspiración",
+      "unit": "mm",
+      "height_m": 0.1,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELSP",
+      "label": "Agua equivalente",
+      "unit": "cm",
+      "height_m": 0.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELsufu",
+      "label": "Unidades de Frio Utah",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELsgd10",
+      "label": "Grados Dia Base 10",
+      "unit": "gd",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELshf7",
+      "label": "Horas Frio Base 7",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELAN",
+      "label": "Altura de Nieve",
+      "unit": "cm",
+      "height_m": 0.0,
+      "brand_model": "Campbell/SR50A",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LAGELBT",
+      "label": "Batería",
+      "unit": "V",
+      "height_m": 1.5,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    }
+  ],
+  "basic_sensors": [
+    "LAGELTA",
+    "LAGELHR",
+    "LAGELVV10",
+    "LAGELDV10"
+  ],
+  "absent_requested_variables": [],
+  "sources": [
+    "https://www.ceazamet.cl/modulos/mod_estacion_descargasAJAX.php?e_cod=LAGEL",
+    "https://www.ceazamet.cl/index.php?pag=mod_estacion&pag2=mod_estacion_hardware&e_cod=LAGEL&p_cod=ceazamet"
+  ],
+  "incidental_exposure": "HTML de metadatos conserva límites fuera de desarrollo y bitácora actual; no se usan valores de observaciones actuales ni se abren RAW Data, Data Map ni gráficas."
+}

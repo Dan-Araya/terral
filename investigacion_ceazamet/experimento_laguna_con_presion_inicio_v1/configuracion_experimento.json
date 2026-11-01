@@ -1,0 +1,51 @@
+{
+  "estacion": "la_laguna_elqui",
+  "sensores": {
+    "LAGELTA": {
+      "variable": "temperatura",
+      "altura_m": 1.5
+    },
+    "LAGELHR": {
+      "variable": "humedad",
+      "altura_m": 1.5
+    },
+    "LAGELVV10": {
+      "variable": "viento",
+      "altura_m": 10.0
+    },
+    "LAGELDV10": {
+      "variable": "direccion",
+      "altura_m": 10.0
+    },
+    "LAGELPA": {
+      "variable": "presion",
+      "altura_m": 2.0
+    }
+  },
+  "presion_complementaria_excluida": false,
+  "sin_conversion_alturas": true,
+  "horizontes_h": [
+    1,
+    3
+  ],
+  "brazos": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "contrastes_principales": [
+    "E-C",
+    "F-D"
+  ],
+  "contrastes_secundarios": [
+    "C-A",
+    "D-B",
+    "E-A",
+    "F-B"
+  ],
+  "semilla_bootstrap": 20132023,
+  "replicas_bootstrap": 300
+}

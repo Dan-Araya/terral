@@ -1,0 +1,26 @@
+{
+  "estacion": "gabriela_mistral",
+  "sensores": {
+    "69": {
+      "variable": "temperatura",
+      "altura_m": 1.5
+    },
+    "70": {
+      "variable": "humedad",
+      "altura_m": 1.5
+    },
+    "66": {
+      "variable": "viento",
+      "altura_m": 2.0
+    },
+    "67": {
+      "variable": "direccion",
+      "altura_m": 2.0
+    },
+    "RMPPA": {
+      "variable": "presion",
+      "altura_m": 2.0
+    }
+  },
+  "nota": "Configuración congelada v1; --reproducir solo cambia el destino. Método, ventanas, semilla y particiones heredados, sin búsqueda."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "HA-3", "version": 1,
+  "modalidad": "experimental_datos_disponibles_al_emitir",
+  "seleccion": "ultima_ventana_nominal_comun_valida_7_horas_10_sensores",
+  "max_edad_cache_adquisicion_h": 2,
+  "justificacion_cache": "Conserva el límite operativo G1/G2 de dos horas por entrada; no acredita frescura física.",
+  "zona": null, "posicion_intervalo": null, "edad_fisica_h": null,
+  "espera_adicional_h": 0, "exige_inmutabilidad_observaciones": false,
+  "limite_sin_avance": null,
+  "sin_avance": "Se informa desde cuándo no avanza cada sensor, sin nuevo umbral de rechazo.",
+  "evento_activo": "Rechazo según última fila de la ventana utilizada; instante físico actual desconocido.",
+  "adquisicion": "Mantener horario, exclusión, caché, límites y fallos G2; ninguna adquisición desde el panel.",
+  "denominacion": "Estimación experimental — última ventana publicada"
+}

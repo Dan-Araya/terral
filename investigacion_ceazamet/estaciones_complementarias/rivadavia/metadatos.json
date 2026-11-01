@@ -1,0 +1,207 @@
+{
+  "e_cod": "PYRV",
+  "slug": "rivadavia",
+  "name": "Rivadavia",
+  "identity_verified": true,
+  "xls_names": [
+    "Rivadavia"
+  ],
+  "latitude_wgs84": -29.96173,
+  "longitude_wgs84": -70.539081,
+  "altitude_m_asl": 900,
+  "metadata_start": "2010-09-23",
+  "metadata_end": "2021-06-10",
+  "metadata_first_timestamp": "2010-09-23 12:30:00",
+  "metadata_last_timestamp": "2021-06-10 10:00:00",
+  "metadata_range_is_not_sensor_coverage": true,
+  "datalogger": "Campbell CR1000",
+  "energy": "Panel solar",
+  "development_status": "pendiente_adquisicion",
+  "timestamps_timezone": null,
+  "interval_position": null,
+  "pressure_reference": "sensor_ausente",
+  "sensors": [
+    {
+      "code": "PYRVTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "temperatura"
+    },
+    {
+      "code": "PYRVHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "humedad"
+    },
+    {
+      "code": "PYRVVV",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "viento"
+    },
+    {
+      "code": "PYRVDV",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "direccion"
+    }
+  ],
+  "available_sensor_metadata": [
+    {
+      "code": "PYRVTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVVV",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVDV",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVRP",
+      "label": "Radiación PAR",
+      "unit": "umol/m²*s",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVRS",
+      "label": "Radiación Solar",
+      "unit": "W/m²",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVPP",
+      "label": "Precipitación",
+      "unit": "mm",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVTS1",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.2,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVTS2",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.1,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVset0",
+      "label": "Evapotranspiración",
+      "unit": "mm",
+      "height_m": 0.1,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVsgd10",
+      "label": "Grados Dia Base 10",
+      "unit": "gd",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVshf7",
+      "label": "Horas Frio Base 7",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVsufu",
+      "label": "Unidades de Frio Utah",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "PYRVBT",
+      "label": "Batería",
+      "unit": "V",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    }
+  ],
+  "basic_sensors": [
+    "PYRVTA",
+    "PYRVHR",
+    "PYRVVV",
+    "PYRVDV"
+  ],
+  "absent_requested_variables": [
+    "presion"
+  ],
+  "sources": [
+    "https://www.ceazamet.cl/modulos/mod_estacion_descargasAJAX.php?e_cod=PYRV",
+    "https://www.ceazamet.cl/index.php?pag=mod_estacion&pag2=mod_estacion_hardware&e_cod=PYRV&p_cod=ceazamet"
+  ],
+  "incidental_exposure": "HTML de metadatos conserva límites fuera de desarrollo y bitácora actual; no se usan valores de observaciones actuales ni se abren RAW Data, Data Map ni gráficas."
+}

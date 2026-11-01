@@ -1,0 +1,11 @@
+{
+  "station": "6",
+  "start": "2004-01-31",
+  "end": "2026-10-06",
+  "created_utc": "2026-10-08T00:42:02.277221+00:00",
+  "execution_timezone": "America/Santiago",
+  "timestamps_timezone": null,
+  "published_reference": "GMT-4, historia/inicio/cierre pendientes",
+  "pause_post_get_seconds": 10,
+  "pause_blocks_seconds": 15
+}

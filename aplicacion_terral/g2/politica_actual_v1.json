@@ -1,0 +1,29 @@
+{
+  "version": "G2-1",
+  "observaciones_actuales_habilitadas": true,
+  "inferencia_historica_habilitada": true,
+  "habilitacion_actual": false,
+  "max_edad_observacion_h": null,
+  "latencia_publicacion_confirmada_h": null,
+  "max_edad_cache_adquisicion_h": 2,
+  "fundamento_cache": "Supuesto conservador de ingeniería heredado de G1; gobierna la recepción más antigua de la ventana requerida. No demuestra frescura física ni latencia de publicación.",
+  "requisitos_inferencia_actual": [
+    "Identidad, formato, unidades y alturas compatibles para cada entrada utilizada",
+    "Siete registros horarios consecutivos válidos de los diez sensores",
+    "Correspondencia temporal documentada entre entradas actuales e históricas: zona, reglas y apertura/cierre del intervalo",
+    "Regla explícita de frescura física y disponibilidad causal por sensor",
+    "Criterio histórico inactivo en la marca de emisión"
+  ],
+  "pendientes_bloqueantes_actual": [
+    "Zona y reglas históricas de los XLS y correspondencia con las marcas actuales",
+    "Posición/cierre del intervalo y disponibilidad causal",
+    "Latencia efectiva por sensor y máximo de edad física defendible",
+    "Semántica de agregación direccional y porcentaje de datos"
+  ],
+  "limitaciones_conservadas": [
+    "No se ha certificado toda la continuidad instrumental histórica; no es condición para construir el flujo ni presentar observaciones nominales",
+    "Discrepancia documental de altura T/HR INIA: ficha 1,5 m frente a encabezado XLS 2 m. No se corrige ni sustituye de altura; cualquier activación exige justificar compatibilidad de las entradas empleadas",
+    "Presiones locales; sin gradientes ni ajustes de referencia",
+    "La fecha UTC del plan es un ancla operativa nominal, no una conversión de las marcas del XLS"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "fuente": "investigacion_ceazamet/estudio_horizontes_inicio_v1/resultados/pisco/tablas/metricas_probabilidades.csv",
+  "sha256": "d88cb3ac2bb10a8ae4fc832f1a7d13918fe6b16786889f7f8f2ac1f1f0d42808",
+  "filas": [
+    {
+      "horizonte_h": "1",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "21",
+      "prevalencia": "0.0012103746397694524",
+      "inicios": "21",
+      "AP": "0.28781921194399329",
+      "Brier": "0.00099262390113763455",
+      "Brier_constante_train": "0.0012091831115804896"
+    },
+    {
+      "horizonte_h": "3",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "63",
+      "prevalencia": "0.0036311239193083573",
+      "inicios": "21",
+      "AP": "0.3528391178237727",
+      "Brier": "0.0028894519656913458",
+      "Brier_constante_train": "0.0036200110263142804"
+    },
+    {
+      "horizonte_h": "6",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "123",
+      "prevalencia": "0.0070893371757925075",
+      "inicios": "21",
+      "AP": "0.34321826815683487",
+      "Brier": "0.0056197055124886678",
+      "Brier_constante_train": "0.0070471722240512047"
+    },
+    {
+      "horizonte_h": "8",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "162",
+      "prevalencia": "0.0093371757925072053",
+      "inicios": "21",
+      "AP": "0.33313527671853216",
+      "Brier": "0.0075242408520781647",
+      "Brier_constante_train": "0.0092645700321151974"
+    },
+    {
+      "horizonte_h": "12",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "238",
+      "prevalencia": "0.013717579250720461",
+      "inicios": "21",
+      "AP": "0.30044664665395376",
+      "Brier": "0.011451803729027628",
+      "Brier_constante_train": "0.013562321238802688"
+    },
+    {
+      "horizonte_h": "24",
+      "bloque": "2022-2023",
+      "modelo": "D",
+      "n_emisiones": "17350",
+      "positivos": "464",
+      "prevalencia": "0.026743515850144093",
+      "inicios": "21",
+      "AP": "0.32289953038875879",
+      "Brier": "0.021317662806294765",
+      "Brier_constante_train": "0.02611205681876487"
+    }
+  ]
+}

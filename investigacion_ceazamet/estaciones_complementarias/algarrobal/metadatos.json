@@ -1,0 +1,179 @@
+{
+  "e_cod": "ALG",
+  "slug": "algarrobal",
+  "name": "Algarrobal",
+  "identity_verified": true,
+  "xls_names": [
+    "Algarrobal"
+  ],
+  "latitude_wgs84": -29.9988307,
+  "longitude_wgs84": -70.587333,
+  "altitude_m_asl": 800,
+  "metadata_start": "2025-06-17",
+  "metadata_end": "2026-10-08",
+  "metadata_first_timestamp": "2025-06-17 14:00:00",
+  "metadata_last_timestamp": "2026-10-08 21:00:00",
+  "metadata_range_is_not_sensor_coverage": true,
+  "datalogger": "CR1000",
+  "energy": "Panel solar",
+  "development_status": "sin_cobertura_en_desarrollo",
+  "timestamps_timezone": null,
+  "interval_position": null,
+  "pressure_reference": "no_confirmada",
+  "sensors": [
+    {
+      "code": "ALGTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 2.0,
+      "brand_model": "Campbell/HygroVUE10",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "temperatura"
+    },
+    {
+      "code": "ALGHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 2.0,
+      "brand_model": "Campbell/HygroVUE10",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "humedad"
+    },
+    {
+      "code": "ALGVV5",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 5.0,
+      "brand_model": "RM Young/Wind Sentry 3002",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "viento"
+    },
+    {
+      "code": "ALGPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/PTB110",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "presion"
+    }
+  ],
+  "available_sensor_metadata": [
+    {
+      "code": "ALGTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 2.0,
+      "brand_model": "Campbell/HygroVUE10",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 2.0,
+      "brand_model": "Campbell/HygroVUE10",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGVV5",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 5.0,
+      "brand_model": "RM Young/Wind Sentry 3002",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGRS",
+      "label": "Radiación Solar",
+      "unit": "W/m²",
+      "height_m": 2.0,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGRPAR",
+      "label": "Radiación PAR",
+      "unit": "W/m²",
+      "height_m": 2.0,
+      "brand_model": "LiCor/LI-190SB",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/PTB110",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGPP",
+      "label": "Precipitación",
+      "unit": "mm",
+      "height_m": 1.5,
+      "brand_model": "Texas Instruments/TR-525i",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGset0",
+      "label": "Evapotranspiración",
+      "unit": "mm",
+      "height_m": 0.1,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGsgd10",
+      "label": "Grados Dia Base 10",
+      "unit": "gd",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGsufu",
+      "label": "Unidades de Frio Utah",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "ALGshf7",
+      "label": "Horas Frio Base 7",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    }
+  ],
+  "basic_sensors": [
+    "ALGTA",
+    "ALGHR",
+    "ALGVV5"
+  ],
+  "absent_requested_variables": [
+    "direccion"
+  ],
+  "sources": [
+    "https://www.ceazamet.cl/modulos/mod_estacion_descargasAJAX.php?e_cod=ALG",
+    "https://www.ceazamet.cl/index.php?pag=mod_estacion&pag2=mod_estacion_hardware&e_cod=ALG&p_cod=ceazamet"
+  ],
+  "incidental_exposure": "HTML de metadatos conserva límites fuera de desarrollo y bitácora actual; no se usan valores de observaciones actuales ni se abren RAW Data, Data Map ni gráficas."
+}

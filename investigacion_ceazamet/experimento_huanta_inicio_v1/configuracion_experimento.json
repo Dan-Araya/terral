@@ -1,0 +1,25 @@
+{
+  "estacion": "llanos_de_huanta",
+  "sensores": {
+    "LLHTA": {
+      "variable": "temperatura",
+      "altura_m": 2.0
+    },
+    "LLHHR": {
+      "variable": "humedad",
+      "altura_m": 2.0
+    },
+    "LLHVV2M": {
+      "variable": "viento",
+      "altura_m": 2.0
+    },
+    "LLHDV2M": {
+      "variable": "direccion",
+      "altura_m": 2.0
+    },
+    "LLHPA": {
+      "variable": "presion",
+      "altura_m": 2.0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "G1-1",
+  "habilitacion_actual": false,
+  "max_edad_observacion_h": null,
+  "latencia_publicacion_confirmada_h": null,
+  "max_edad_cache_adquisicion_h": 2,
+  "fundamento_cache": "Límite conservador de ingeniería para no reutilizar una adquisición antigua. Es un supuesto explícito de demo, no una medición ni garantía de publicación. Pasar este control no acredita frescura de las observaciones.",
+  "evidencia_publicacion": "El formulario oficial ofrece Min/Prom/Max Hora [1 dato c/hora]; el XLS contiene filas futuras vacías y %Datos=0. Esto acredita agregación y faltantes, no latencia máxima por sensor ni momento de cierre. No se habilita un umbral de edad de observación hasta resolverlo.",
+  "pendientes": ["zona y reglas históricas de los XLS", "posición/cierre del intervalo", "latencia efectiva por sensor", "continuidad instrumental y alturas históricas", "definición de agregación direccional y %Datos"]
+}

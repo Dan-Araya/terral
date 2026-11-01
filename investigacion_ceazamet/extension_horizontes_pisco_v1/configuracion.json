@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "periodo": [
+    "2013-01-01",
+    "2023-12-31 23:00"
+  ],
+  "horizontes": [
+    24,
+    36,
+    48,
+    72
+  ],
+  "umbrales": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "presupuestos": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "semilla": 20132023,
+  "bootstrap": 300,
+  "etapas": {
+    "pisco": {
+      "estado": "autorizada",
+      "slug": "pisco_elqui",
+      "sensores": [
+        "59",
+        "60",
+        "56",
+        "57",
+        "PEPA"
+      ],
+      "alturas_m": [
+        1.5,
+        1.5,
+        2,
+        2,
+        2
+      ],
+      "presion_complementaria": true
+    }
+  }
+}

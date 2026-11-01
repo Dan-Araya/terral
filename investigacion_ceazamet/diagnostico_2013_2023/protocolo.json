@@ -1,0 +1,24 @@
+{
+  "periodo": ["2013-01-01 00:00:00", "2023-12-31 23:00:00"],
+  "reserva": "Solo se abren los once CSV observaciones_2013.csv a observaciones_2023.csv; cualquier fecha externa aborta, sin filtrarla silenciosamente.",
+  "validez": "prom finito, porcentaje_datos > 0, prom_utilizable_revision = 1; RH en [0,100], viento >=0, direccion en [0,360]. No imputar ni corregir. 360 se conserva y no cumple [0,180].",
+  "calidad_adicional": "Marcar sin excluir T fuera [-30,50], viento >60, presion fuera [500,1100], inconsistencia min<=prom<=max (no aplicable a direccion circular), saltos exactos de 1h |dT|>=8 C, |dRH|>=40 puntos, |dV|>=5 m/s, y repeticiones exactas >=12h. Son banderas exploratorias, no pruebas de error.",
+  "direccion": "Media circular atan2(mean(sin),mean(cos)), longitud resultante R y cuantiles de desvio angular firmado respecto de esa media; no cuantiles lineales de angulos. Direccion de calma se cuenta aparte.",
+  "cambios": "Extremos validos separados exactamente 1 o 3h. Para 3h no se exige validez de horas intermedias; contar esos pares por separado.",
+  "agricola": "Aproximacion no exacta: abril-agosto, dias de calendario registrado cuyo primer candidato esta en 00-07; alternativa frontera 01-07. No recortar todas las horas a 00-07. Inicios inciertos si hay horas desconocidas anteriores ese dia o continuidad desconocida desde el dia previo.",
+  "sensibilidad_prefijada": [
+    {"id":"original", "t":11, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"t_10", "t":10, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"t_12", "t":12, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"rh_25", "t":11, "rh":25, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"rh_35", "t":11, "rh":35, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"v_1_5", "t":11, "rh":30, "v":1.5, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"v_2_5", "t":11, "rh":30, "v":2.5, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":0},
+    {"id":"sector_15_165", "t":11, "rh":30, "v":2, "dlo":15, "dhi":165, "persistencia":1, "puente_negativo":0},
+    {"id":"persistencia_2", "t":11, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":2, "puente_negativo":0},
+    {"id":"persistencia_3", "t":11, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":3, "puente_negativo":0},
+    {"id":"puente_1_negativa", "t":11, "rh":30, "v":2, "dlo":0, "dhi":180, "persistencia":1, "puente_negativo":1}
+  ],
+  "agrupacion_sensibilidad": "Primero exigir persistencia en tramos estrictos. Despues, solo en alternativa puente, agrupar tramos separados por exactamente una hora evaluable negativa. Nunca atravesar desconocidos. La hora puente no pasa a candidata. Informar horas candidatas y amplitud inicio-fin por separado.",
+  "seleccion": "No elegir configuracion ganadora. Las variaciones son una a la vez, no una busqueda combinatoria. Fijado antes de calcular candidatos."
+}

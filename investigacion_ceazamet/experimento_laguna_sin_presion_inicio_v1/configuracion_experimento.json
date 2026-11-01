@@ -1,0 +1,23 @@
+{
+  "estacion": "la_laguna_elqui",
+  "sensores": {
+    "LAGELTA": {
+      "variable": "temperatura",
+      "altura_m": 1.5
+    },
+    "LAGELHR": {
+      "variable": "humedad",
+      "altura_m": 1.5
+    },
+    "LAGELVV10": {
+      "variable": "viento",
+      "altura_m": 10.0
+    },
+    "LAGELDV10": {
+      "variable": "direccion",
+      "altura_m": 10.0
+    }
+  },
+  "presion_complementaria_excluida": true,
+  "sin_conversion_alturas": true
+}

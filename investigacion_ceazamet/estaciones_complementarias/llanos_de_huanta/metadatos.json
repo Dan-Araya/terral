@@ -1,0 +1,309 @@
+{
+  "e_cod": "LLH",
+  "slug": "llanos_de_huanta",
+  "name": "Llanos de Huanta",
+  "identity_verified": true,
+  "xls_names": [
+    "Llanos de Huanta"
+  ],
+  "latitude_wgs84": -29.827418,
+  "longitude_wgs84": -70.354471,
+  "altitude_m_asl": 1696,
+  "metadata_start": "2010-09-08",
+  "metadata_end": "2026-01-08",
+  "metadata_first_timestamp": "2010-09-08 14:40:00",
+  "metadata_last_timestamp": "2026-01-08 13:50:00",
+  "metadata_range_is_not_sensor_coverage": true,
+  "datalogger": "Campbell/CR1000",
+  "energy": "Panel solar",
+  "development_status": "pendiente_adquisicion",
+  "timestamps_timezone": null,
+  "interval_position": null,
+  "pressure_reference": "no_confirmada",
+  "sensors": [
+    {
+      "code": "LLHTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "temperatura"
+    },
+    {
+      "code": "LLHTA10M",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 10.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "temperatura"
+    },
+    {
+      "code": "LLHHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "humedad"
+    },
+    {
+      "code": "LLHHR10M",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 10.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "humedad"
+    },
+    {
+      "code": "LLHVV2M",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 2.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "viento"
+    },
+    {
+      "code": "LLHVV10M",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "viento"
+    },
+    {
+      "code": "LLHDV2M",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 2.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "direccion"
+    },
+    {
+      "code": "LLHDV10M",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "direccion"
+    },
+    {
+      "code": "LLHPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/PTB110",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null,
+      "variable": "presion"
+    }
+  ],
+  "available_sensor_metadata": [
+    {
+      "code": "LLHTA",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHTA10M",
+      "label": "Temperatura del Aire",
+      "unit": "°C",
+      "height_m": 10.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHHR",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHHR10M",
+      "label": "Humedad Relativa",
+      "unit": "%",
+      "height_m": 10.0,
+      "brand_model": "Vaisala/HMP50",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHVV2M",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 2.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHVV10M",
+      "label": "Velocidad de Viento",
+      "unit": "m/s",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHDV2M",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 2.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHDV10M",
+      "label": "Dirección de viento",
+      "unit": "°",
+      "height_m": 10.0,
+      "brand_model": "RM Young/5103 Wind Monitor",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHRS",
+      "label": "Radiación Solar",
+      "unit": "W/m²",
+      "height_m": 2.0,
+      "brand_model": "LiCor/LI-200",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHRSP",
+      "label": "Radiación PAR",
+      "unit": "umol/m²*s",
+      "height_m": 2.0,
+      "brand_model": "LiCor/LI-190SB",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHPA",
+      "label": "Presión Atmosférica",
+      "unit": "hPa",
+      "height_m": 2.0,
+      "brand_model": "Vaisala/PTB110",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHPP",
+      "label": "Precipitación",
+      "unit": "mm",
+      "height_m": 1.5,
+      "brand_model": "NA/NA",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHTS2",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.5,
+      "brand_model": "NA/107",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHTS1",
+      "label": "Temperatura de Suelo",
+      "unit": "°C",
+      "height_m": -0.1,
+      "brand_model": "NA/107",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHset0",
+      "label": "Evapotranspiración",
+      "unit": "mm",
+      "height_m": 0.1,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHPR",
+      "label": "Punto de Rocío",
+      "unit": "°C",
+      "height_m": 2.0,
+      "brand_model": "Software/Estandar",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHsufu",
+      "label": "Unidades de Frio Utah",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHshf7",
+      "label": "Horas Frio Base 7",
+      "unit": "hf",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHsgd10",
+      "label": "Grados Dia Base 10",
+      "unit": "gd",
+      "height_m": 2.0,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    },
+    {
+      "code": "LLHBT",
+      "label": "Batería",
+      "unit": "V",
+      "height_m": 1.5,
+      "brand_model": "Software/Datalogger Func",
+      "effective_coverage": "pendiente_XLS_2013_2023",
+      "temporal_convention": null
+    }
+  ],
+  "basic_sensors": [
+    "LLHTA",
+    "LLHHR",
+    "LLHVV2M",
+    "LLHDV2M"
+  ],
+  "absent_requested_variables": [],
+  "sources": [
+    "https://www.ceazamet.cl/modulos/mod_estacion_descargasAJAX.php?e_cod=LLH",
+    "https://www.ceazamet.cl/index.php?pag=mod_estacion&pag2=mod_estacion_hardware&e_cod=LLH&p_cod=ceazamet"
+  ],
+  "incidental_exposure": "HTML de metadatos conserva límites fuera de desarrollo y bitácora actual; no se usan valores de observaciones actuales ni se abren RAW Data, Data Map ni gráficas."
+}
